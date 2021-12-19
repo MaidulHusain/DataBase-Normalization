@@ -7,3 +7,10 @@ According to wikipidea
 
 # DataBase-Normalization
 The following database rules are widely used for noramalization 
+- First Normal Form
+- Second Normal Form
+- Third Normal Form
+- Fourth Normal Form 
+- Fifth Normal Form
+- Sixth Normal Form 
+
