@@ -1,3 +1,4 @@
+/* Create The Primary Database*/
 create database ProjNormlization;
 use ProjNormlization;
 CREATE TABLE Projects(
@@ -51,6 +52,7 @@ CREATE TABLE Customers (
     Zip VARCHAR(5)
   );
   
+/* First Normal Form */  
 ALTER TABLE Customers
 ADD PRIMARY KEY (ID);
 
@@ -72,6 +74,7 @@ constraint Fk_ProjectFeedback_projects foreign key (ProjectID) references projec
 constraint fk_Projectfeedback_customers foreign key (projectid) references customers (id)
 );
 
+/* Second Normal Form */
 ALTER TABLE Customers
 DROP COLUMN ContactPerson,
 DROP COLUMN ContactPersonRole,
@@ -86,6 +89,8 @@ phonenumber varchar (100)
 
 alter table customers
 add constraint FK_customers_contactpersons foreign key (id) references contactpersons (id);
+
+/* Third Normal Form */
 
 alter table customers drop column city;
 create table zipcodes (
