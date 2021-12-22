@@ -70,7 +70,10 @@ Now that all the changes are performed, lets look at the following figure after 
 
 <img src="Images/Fig 4.png" width="600" />
 
-
+### contributor info
+- Md Maidul Husain
+- <mdmaidul.husatin@student.nmt.edu>
+- <mhusain@isrt.ac.bd>
 
 
 
