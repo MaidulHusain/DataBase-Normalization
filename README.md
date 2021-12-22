@@ -31,3 +31,4 @@ Let us consider the following data base diagrams, there is existing data base wi
 
 <img src="Images/Fig 1.png" width="600" />
 
+The following sql code is provided to construct the initial data base (fig1)
