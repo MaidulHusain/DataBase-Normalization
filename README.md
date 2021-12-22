@@ -55,5 +55,8 @@ From the earlier figure, we can see that he ContactPerson, ContactPersonRole and
 - So in order to satisfy the second rule, we need removed these columns from table and store these columns in new table named as ContactPerson. Keep in mind, this table contain data related to the contact person not information about customers
 - Once, the columns are removed from the Customers table, we need to create a new table that'll store the data for the contact persons. Let us create a new table ContactPersons and relate it to the Customers table with a foreign key relation
 
+Now you can see in the diagram below that a new table has been added to the schema and it satisfies the second normal form of the database
+
+<img src="Images/Fig 3.png" width="600" />
 
 
