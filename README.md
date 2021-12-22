@@ -31,4 +31,12 @@ Let us consider the following data base diagrams, there is existing data base wi
 
 <img src="Images/Fig 1.png" width="600" />
 
-The following sql code is provided to construct the initial data base (fig1)
+# Normalizing Examples Database and Discussion
+## First Normal Form
+### Identification of Problems
+Following first normal rules are violated by customers table
+- There is no primary key (id)
+- Data is not in redundant form. For example, the column ContactPersonAndRole can be divided into two individuals column for example: ContactPerson and ContactPersonRole
+- There are two repeating groups of columns in the table. For example, (Project1_ID, Project1_FeedBack) and (Project2_ID, Project2_Feedback). We need to get these removed from this table.
+
+
