@@ -72,8 +72,8 @@ Now that all the changes are performed, lets look at the following figure after 
 
 ### Contributor Info
 - Md Maidul Husain
-- <mdmaidul.husatin@student.nmt.edu>
-- <mhusain@isrt.ac.bd>
+ - <mdmaidul.husatin@student.nmt.edu>
+ - <mhusain@isrt.ac.bd>
 
 
 
