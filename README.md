@@ -13,4 +13,6 @@ The following database rules are widely used for noramalization
 - Fourth Normal Form 
 - Fifth Normal Form
 - Sixth Normal Form 
+# Objective:
+In this project we will focus on the first three normalizing process in database, and other forms are out of the scope of this projects.
 
