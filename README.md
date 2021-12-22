@@ -45,4 +45,7 @@ Following first normal rules are violated by customers table
   - Add a new column for ContactPersonRole.
 - Finally, in order to satisfy the third rule of the First Normal Form, we need to move the columns Project1_ID, Project1_Feedback, Project2_ID, and Project2_Feedback into a new   table. This can be done by creating a new table ProjectFeedbacks and link it back with the Customers and the Projects table. Here, new table ProjectFeedbacks use Foreign Key    references to the Customers and Projects table.
 
+The following database diagram will appear after applying all the rules of the first normal form.
+<img src="Images/Fig 2.png" width="600" />
+
 
