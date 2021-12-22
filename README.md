@@ -65,7 +65,7 @@ In third normal form, along with second normal form, we have to ensure that each
 ### Steps For Third Normalization
 In order to fix the problem, we need to remove the city from customer table and create a new table zipcodes to store columns city and zip. This new table can be related to the Customers table via a foreign key relation.
 
-Now that all the changes are performed, lets look at the schema after the third normal form has also been satisfied in following figure
+Now that all the changes are performed, lets look at the following figure after the third normal form has also been satisfied
 
 
 <img src="Images/Fig 4.png" width="600" />
