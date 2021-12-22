@@ -59,4 +59,18 @@ Now you can see in the diagram below that a new table has been added to the sche
 
 <img src="Images/Fig 3.png" width="600" />
 
+## Third Normal Form
+### Identification of Problems
+In third normal form, along with second normal form, we have to ensure that each columns must be non-transitively independent, that means, each columns should be rely on the primary key column not any other columns. Here, although city and zip code are related to the primary key, they depend on each other and violates non-transitively independent conditions. 
+### Steps For Third Normalization
+In order to fix the problem, we need to remove the city from customer table and create a new table zipcodes to store columns city and zip. This new table can be related to the Customers table via a foreign key relation.
+
+Now that all the changes are performed, lets look at the schema after the third normal form has also been satisfied in following figure
+
+
+<img src="Images/Fig 4.png" width="600" />
+
+
+
+
 
